@@ -1,6 +1,6 @@
 ## 📊 Criando um Dashboard corporativo com integração com SQL Server e Azure - Desafio DIO
 
-### 📊 Acesse o Dashboard
+### 📊 Acesse o Relatório
 
 👉 *Visualizar no Power BI Service:*  
 https://app.powerbi.com/view?r=eyJrIjoiNWM5MDBlNTMtN2YwYS00MmUyLTk0Y2MtYTBiZDdkYTY1NzBjIiwidCI6IjQ5ZjM1ZjU0LTIyMjAtNDVmMS1iZmFlLTgzOWEyZGE1NjhkNCJ9
