@@ -1,6 +1,11 @@
-📊 Criando um Dashboard corporativo com integração com SQL Server e Azure - Desafio DIO
+## 📊 Criando um Dashboard corporativo com integração com SQL Server e Azure - Desafio DIO
 
-🧾 Visão Geral
+### 📊 Acesse o Dashboard
+
+👉 *Visualizar no Power BI Service:*  
+https://app.powerbi.com/view?r=eyJrIjoiNWM5MDBlNTMtN2YwYS00MmUyLTk0Y2MtYTBiZDdkYTY1NzBjIiwidCI6IjQ5ZjM1ZjU0LTIyMjAtNDVmMS1iZmFlLTgzOWEyZGE1NjhkNCJ9
+
+### 🧾 Visão Geral
 
 Este projeto integração e análise de dados corporativos utilizando:
 
@@ -12,7 +17,7 @@ Este projeto integração e análise de dados corporativos utilizando:
 
 O objetivo foi transformar a base fornecida no desafio da DIO, para gerar insights sobre funcionários, gerentes, departamentos e projetos.
 
-🛠️ 1. Criação do Banco no Azure SQL Server
+### 🛠️ 1. Criação do Banco no Azure SQL Server
 
 Etapas foram realizadas:
 
@@ -30,7 +35,7 @@ Etapas foram realizadas:
 
 O script original exigiu ajustes porque não estava 100% compatível com SQL Server.
 
-🧹 2. Limpeza e Transformação de Dados (Power Query)
+### 🧹 2. Limpeza e Transformação de Dados (Power Query)
 
 Principais etapas executadas:
 
@@ -60,7 +65,7 @@ Funcionários com múltiplos projetos
 
 Busca e eliminação de duplicidades
 
-🔗 3. Modelagem do Banco para Análise
+### 🔗 3. Modelagem do Banco para Análise
 
 📌 Mesclas e Tabelas Enriquecidas
 
@@ -89,7 +94,7 @@ Casos sem gerente → categorizados como "No Gerent"
 James aparece sem gerente no dataset e mantivem o registro conforme a fonte, documentando o caso.
 No conjunto de dados, James não possuía horas registradas. Para consistência analítica, adotei 40h padrão, com registro explícito na documentação.
 
-🧮 4. Métricas Criadas (DAX)
+### 🧮 4. Métricas Criadas (DAX)
 
 Hours by departament
 
@@ -110,9 +115,9 @@ Correção de cardinalidade
 
 Estrutura próxima ao modelo estrela
 
-📊 5. Dashboards Criados
+### 📊 5. Dashboards Criados
 
-🟣 Página 1 — Análise Geral de Funcionários
+ 🟣 Página 1 — Análise Geral de Funcionários
 
 Inclui:
 
@@ -146,7 +151,7 @@ Tabela analítica detalhada funcionários e horas
 
 👉 Foco: exploração operacional e detalhamento
 
-🧠 6. Decisões Analíticas Importantes
+### 🧠 6. Decisões Analíticas Importantes
 
 Nenhum valor foi inventado sem justificativa
 
@@ -158,7 +163,7 @@ Priorização de clareza analítica vs. excesso de gráficos
 
 Design orientado a storytelling de dados
 
-🚀 7. Resultados Obtidos
+### 🚀 7. Resultados Obtidos
 
 Base bruta transformada em informação confiável
 
@@ -175,7 +180,7 @@ hierarquia organizacional
 distribuição de horas
 
 
-✨ Possíveis Evoluções
+### ✨ Possíveis Evoluções
 
 Refatoração para modelo estrela completo (DimTables)
 
@@ -185,7 +190,7 @@ Métricas financeiras por projeto
 
 Publicação no Power BI Service
 
-🏁 Conclusão
+### 🏁 Conclusão
 
 Este projeto completa o ciclo de Business Intelligence:
 
@@ -196,7 +201,7 @@ Ele demonstra a importância de:
 validar dados,modelar corretamente,documentar decisões,
 pensar como analista — e não apenas operador de ferramenta.
 
-📚 Tecnologias Utilizadas
+### 📚 Tecnologias Utilizadas
 
 SQL Server Azure
 
@@ -211,3 +216,13 @@ SQL Server Management Studio
 🙋 Sobre o Projeto
 
 Este projeto foi desenvolvido como parte de um desafio técnico de análise de dados e BI.
+
+### 🖼️ Visualizações do Dashboard
+
+![Página 1](https://github.com/dayanesantos-ds/power_bi_analyst/blob/main/desafio-power-bi/imagens/pag%201%20relatorio.png)
+![Página 2](https://github.com/dayanesantos-ds/power_bi_analyst/blob/main/desafio-power-bi/imagens/pag%202%20relatorio.png)
+![Página 3](https://github.com/dayanesantos-ds/power_bi_analyst/blob/main/desafio-power-bi/imagens/sql%20azure%201.png)
+![Página 4](https://github.com/dayanesantos-ds/power_bi_analyst/blob/main/desafio-power-bi/imagens/sql%20azure%202.png)
+
+
+
