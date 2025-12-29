@@ -7,15 +7,15 @@ https://app.powerbi.com/view?r=eyJrIjoiNWM5MDBlNTMtN2YwYS00MmUyLTk0Y2MtYTBiZDdkY
 
 ### 🧾 Visão Geral
 
-Este projeto integração e análise de dados corporativos utilizando:
+Projeto para a integração e a análise de dados corporativos utilizando:
 
 🖥️ SQL Server hospedado na Azure
 
 ⚙️ Power Query para limpeza e transformação dos dados
 
-📊 Power BI para criação de Relatórios analíticos 
+📊 Power BI para a criação de Relatórios analíticos 
 
-O objetivo foi transformar a base fornecida no desafio da DIO, para gerar insights sobre funcionários, gerentes, departamentos e projetos.
+O objetivo foi transformar a base fornecida no desafio da DIO, para gerar vizualizações sobre funcionários, gerentes, departamentos e projetos.
 
 ### 🛠️ 1. Criação do Banco no Azure SQL Server
 
@@ -100,11 +100,9 @@ Hours by departament
 
 Hours by Gerent
 
-
 Hours by location
 
 Employees by location
-
 
 
 🎯 Modelagem
@@ -115,7 +113,8 @@ Correção de cardinalidade
 
 Estrutura próxima ao modelo estrela
 
-### 📊 5. Dashboards Criados
+
+### 📊 5. Relatórios Criados
 
  🟣 Página 1 — Análise Geral de Funcionários
 
@@ -159,7 +158,7 @@ Casos especiais foram documentados
 
 Relações ambíguas tratadas com USERELATIONSHIP quando necessário
 
-Priorização de clareza analítica vs. excesso de gráficos
+Priorização de clareza analítica e clareza de gráficos
 
 Design orientado a storytelling de dados
 
@@ -169,7 +168,7 @@ Base bruta transformada em informação confiável
 
 Modelo analítico consistente
 
-Dashboards claros e interativos
+Relatórios claros e interativos
 
 Insights sobre:
 
@@ -188,18 +187,16 @@ Séries temporais (horas por período)
 
 Métricas financeiras por projeto
 
-Publicação no Power BI Service
 
 ### 🏁 Conclusão
 
 Este projeto completa o ciclo de Business Intelligence:
 
-Azure SQL ➝ Power Query ➝ Modelagem ➝ DAX ➝ Dashboards ➝ Insights
+Azure SQL ➝ Power Query ➝ Modelagem ➝ DAX ➝ Relatórios ➝ Insights
 
 Ele demonstra a importância de:
 
-validar dados,modelar corretamente,documentar decisões,
-pensar como analista — e não apenas operador de ferramenta.
+validar dados, modelar corretamente, documentar decisões e pensar como analista.
 
 ### 📚 Tecnologias Utilizadas
 
